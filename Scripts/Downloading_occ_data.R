@@ -14,10 +14,6 @@ library(ridigbio)
 library(spocc)
 library(readxl)
 
-library(rocc)
-library(httr)
-library(jsonlite)
-
 # Baixando os dados e organizando os dados -------------------------------------
 
 "Leptasthenura setaria" -> sp # Para facilitar

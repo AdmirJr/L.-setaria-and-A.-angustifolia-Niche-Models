@@ -60,3 +60,7 @@ dados.coord <- dados.coord %>%
 
 plot(latitude ~ longitude, dados.coord)
 map(add = T)
+
+# Salvando os dados em um .csv
+
+write.csv(dados.coord, file = 'Datasets/Cleaned coordinates.csv')

@@ -82,3 +82,7 @@ rm(specieslink.data)
 ## Adicionando uma coluna ID ---------------------------------------------------
 
 dados.brutos <- tibble::rowid_to_column(dados.brutos, "ID")
+
+## Salvando o dataset ----------------------------------------------------------
+
+write.csv(dados.brutos, file = 'Datasets/Uncleaned data.csv')
